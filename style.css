@@ -1,0 +1,135 @@
+*{
+    background-color: black;
+    font-weight: 800;
+    margin-left: 1%;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    color: white;
+}
+.blogs{
+    margin-top: 15px;
+    width: 90%;
+    height: 50%;
+    /* border: 2px solid white; */
+    color: black;
+}
+.right{
+    cursor: pointer;
+}
+.create{
+    width: 50%;
+    border: 1px solid white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding:10px;
+    background-color: white;
+    visibility: hidden;
+    position: absolute;
+    z-index: 1;
+    left: 20%;
+    top: 30%;
+}
+.heading{
+ background-color: white;
+ width: 100%;
+ color: black;
+}
+.name{
+    background-color: white;
+    font-size: 28px;
+}
+.btns{
+    background-color: white;
+    width: auto;
+}
+button{
+    background-color: white;
+    width: auto;
+}
+
+.edit{
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  gap: 18px;
+  background-color: white;
+  visibility: hidden;
+  position: absolute;
+  padding: 10px;
+  z-index: 1;
+  left: 20%;
+  top: 30%;
+}
+button{
+    border-radius: 8px;
+}
+.edittextbox{
+    width: 100%;
+    background-color: white;
+}
+.edittext{
+    background-color: white;
+    width: 100%;
+}
+.editapost{
+    background-color: white;
+    font-size: 28px;
+}
+.cross{
+    position: absolute;
+    background-color: white;
+    font-size: 34px;
+    right: 10px;
+    top: 3px;
+    cursor: pointer;
+}
+.blogedit{
+    cursor: pointer;
+    width: 90px;
+}
+.blogdelete{
+    cursor: pointer;
+    width: 120px;
+}
+textarea{
+    margin: 0;
+    
+}
+input{
+    margin: 0;
+}
+.blogs{
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.blog{
+border: 1px solid white;
+color: white;
+display: flex;
+flex-direction: column;
+gap: 7px;
+padding: 8px;
+}
+.blogbtn{
+    display: flex;
+}
+.blogheading{
+    font-size: 23px;
+}
+.blogbtns{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.visible{
+    visibility: visible;
+}
+.opa{
+    opacity: 0.3;
+}
